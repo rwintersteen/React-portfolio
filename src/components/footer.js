@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function Footer() {
-
     return(
         <footer className="mt-5">
             <Container fluid={true}>
@@ -19,7 +18,6 @@ function Footer() {
             </Container>
         </footer>
     );
-
 }
 
 export default Footer;
