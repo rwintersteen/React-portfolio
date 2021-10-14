@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
-function Card() {
+function Header() {
     return (
         <Card className="bg-dark text-white">
             <Card.Img src="holder.js/100px270" alt="Card image" />
@@ -13,4 +13,4 @@ function Card() {
     );
 }
 
-export default Card();
+export default Header();
