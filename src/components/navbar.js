@@ -1,4 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav';
 
 <Navbar bg="light" variant="light">
 <Container>
