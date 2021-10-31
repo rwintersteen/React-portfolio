@@ -34,5 +34,6 @@ function NavTabs {
       </TabPanel>
 
       </Tabs>
+    </div>
   )
 }
