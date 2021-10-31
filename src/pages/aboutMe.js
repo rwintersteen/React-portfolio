@@ -1,13 +1,11 @@
 import React from 'react';
 import Header from '../components/header';
-import Content from '../components/Content';
+import Content from '../components/content';
 
-function AboutMe(props) {
-
+const AboutMe = (props) => {
     return(
         <div>
             <Header title={props.title} />
-
             <Content>
             <p>Hello! My name is Rachael. I'm a full stack web developer with experience dabbling in HTML/CSS, JavaScript, Node JS, Express, MySQL, MongoDB, and React.</p>
 
@@ -21,7 +19,6 @@ function AboutMe(props) {
             </Content>
         </div>
     );
-
 }
 
 export default AboutMe;
