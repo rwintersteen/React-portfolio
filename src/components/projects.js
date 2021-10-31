@@ -12,7 +12,7 @@ function ProjectCards() {
                         <Card.Text>
                             <h6>A Note Taking application that uses Express.js and is also depolyed to Heroku.</h6>
                         </Card.Text>
-                        <Card.Img variant="bottom" src="/src/images/Note Taker.png"></Card.Img>
+                        <Card.Img variant="bottom" src="Note Taker"></Card.Img>
                     </Card.Body>
             </Card>
 
@@ -47,7 +47,7 @@ function ProjectCards() {
                 <Card.Body>
                     <Card.Title> <h2>Piano on the Go</h2> </Card.Title>
                         <Card.Text>
-                            <h6>The final group project </h6>
+                            <h6>The final group project; a simple, on-the-go piano you can play from your phone or on a browser. </h6>
                         </Card.Text>
                     </Card.Body>
             </Card>
