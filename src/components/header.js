@@ -1,13 +1,12 @@
-import Card from 'react-bootstrap/Card';
+import React from 'react';
+import '../App.css';
 
-function Header(props) {
+function Header() {
     return (
-        <Card className="bg-dark text-white">
-            <Card.Img src="holder.js/100px270" alt="Card image" />
-            <Card.ImgOverlay>
-                <Card.Title>{props.this.title}</Card.Title>
-            </Card.ImgOverlay>
-        </Card>
+        <div>
+            <h3 className="h3-text">Hello! I am Rachael</h3>
+            <h4 className="h4-text">A dental assistant turned full stack web developer.</h4>
+        </div>
     );
 }
 
