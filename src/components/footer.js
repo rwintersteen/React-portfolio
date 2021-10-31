@@ -1,23 +1,25 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react'; 
+import '../App.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
-    return(
-        <footer className="mt-5">
-            <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        Rachael Wintersteen
-                    </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Carefully crafted with ❤️
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
-    );
-}
+    return (
+        <div className="icon-list">
+            <a className="faInstagram app-lin social-media-list" href="https://www.instagram.com/rakkelly/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} size="3x" />
+            </a>
+
+            <a className="faLinkedin app-lin social-media-list" href="https://www.linkedin.com/in/rachael-wintersteen-708140197/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            </a>
+
+            <a className="faGithub app-lin social-media-list" href="https://github.com/rwintersteen" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="3x" />
+            </a>
+
+        </div>
+    )
+} 
 
 export default Footer;
