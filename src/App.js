@@ -1,25 +1,16 @@
 import React from "react";
-import About from "./components/aboutMe";
-import Contact from "./components/contactMe";
-import Resume from "./components/downloadResume";
-import Footer from "./components/footer";
+import "./App.css";
 import Header from "./components/header";
-import Navbar from "./components/navbar";
-import Projects from "./components/projects";
+import NavTabs from "./components/navTabs";
+import Footer from "./components/footer";
 
-
-
-
-
-    <Router>
-    <div className="App">
-      <Header />
-      <About />
-      <Projects />
-      <Resume />
-      <Footer />
-    </div>
-    </Router>
+function App() {
+  return (
+      <div className="App">
+        <Header />
+        <NavTabs />
+        <Footer />
+      </div>
   );
 }
 
