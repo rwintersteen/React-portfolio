@@ -6,7 +6,7 @@ import ProjectCards from "/projects";
 import Contact from "/contact";
 import Resume from "/downloadResume";
 
-function NavTabs {
+function NavTabs() {
   return (
     <div className="container">
       <Tabs>
@@ -37,3 +37,5 @@ function NavTabs {
     </div>
   )
 }
+
+export default NavTabs;
