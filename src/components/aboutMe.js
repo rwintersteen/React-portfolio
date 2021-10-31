@@ -5,7 +5,7 @@ function AboutMe() {
     return ( 
         <div>
             <h3 className="h3-text" id="title">About Me</h3>
-                <h2 className="h2-text">I'm a full stack web developer with experience dabbling in HTML/CSS, JavaScript, Node JS, Express, MySQL, MongoDB, and React.</h2>
+                <h4 className="h4-text">I'm a full stack web developer with experience dabbling in HTML/CSS, JavaScript, Node JS, Express, MySQL, MongoDB, and React.</h4>
 
                 <p>Over the last decade, my career focus has been solely in dentistry and making my way through orthodontic assisting. I have filled just about every role in the dental clinic with my current credentials. However, I need a fresh start and web development is my siren's call. </p>
 

@@ -12,6 +12,7 @@ function ProjectCards() {
                         <Card.Text>
                             <h6>A Note Taking application that uses Express.js and is also depolyed to Heroku.</h6>
                         </Card.Text>
+                        <Card.Img variant="bottom" src="/src/images/Note Taker.png"></Card.Img>
                     </Card.Body>
             </Card>
 
@@ -50,7 +51,6 @@ function ProjectCards() {
                         </Card.Text>
                     </Card.Body>
             </Card>
-
             
         </div>
     )
